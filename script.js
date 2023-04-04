@@ -20,8 +20,8 @@ function getCurrentImageOfThDay() {
             const image = document.getElementById('image');
             image.src = data.url;
             console.log(data)
-            console.log(data.title)
-            console.log(data.explanation)
+            // console.log(data.title)
+            // console.log(data.explanation)
 
             //add title of the image
 
@@ -52,8 +52,8 @@ function getImageOfTheday() {
             .then(data => {
                 const image = document.getElementById('image');
                 image.src = data.url;
-                console.log(data.title);
-                console.log(data.explanation)
+                // console.log(data.title);
+                // console.log(data.explanation)
 
                 //add the date to the heading
 
