@@ -1,0 +1,50 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Asap:ital,wght@0,400;1,300&family=Inter:wght@300;400;500;800&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Pacifico&family=Poppins:wght@400;500;600;700&family=Rubik:wght@300;400;500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,900&family=Tilt+Prism&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+body{
+   background-color: #7913cc;
+}
+
+.container{
+    border: 2px solid black;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 10px;
+}
+.head{
+  background-color: black;
+  color: white;
+}
+.head p{
+  margin :5px 0;
+  font-size: 20px;
+}
+
+.history ul li{
+  list-style: none;
+}
+
+.form{
+  background-color: aquamarine;
+  font-size: 20px;
+}
+.form button{
+  padding: 2px 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    background: #b45dcc;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+
+.history{
+  background-color: #dcab5d;
+  font-size: 20px;
+}
